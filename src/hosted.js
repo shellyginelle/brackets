@@ -17,30 +17,33 @@
     // Default filesystem content
     var projectRoot = "/7/projects/30";
 
-    var index = "<html>\n"                                  +
-                "  <head>\n"                                +
-                "    <title>Bramble</title>\n"              +
-                "  </head>\n"                               +
-                "  <body>\n"                                +
-                "    <p>This is the main page.</p>\n"       +
-                "  </body>\n"                               +
+    var index = "<html>\n"                                                +
+                "  <head>\n"                                              +
+                "    <title>Code with Venus</title>\n"                    +
+                "  </head>\n"                                             +
+                "  <body>\n"                                              +
+                "    <p>Welcome to the world of web-based programming!\n" +
+                "    Venus aims to help new developers to learn and\n"    +
+                "    code productively, while introducing you to\n"       +
+                "    the fundamentals of coding. Let's get started</p>\n" +
+                "  </body>\n"                                             +
                 "</html>";
 
-    var tutorial = "<html>\n"                               +
-                   "  <head>\n"                             +
-                   "    <title>Tutorial</title>\n"          +
-                   "  </head>\n"                            +
-                   "  <body>\n"                             +
-                   "    <p>This is the tutorial.</p>\n"     +
-                   "  </body>\n"                            +
+    var tutorial = "<html>\n"                                             +
+                   "  <head>\n"                                           +
+                   "    <title>Venus Tutorial</title>\n"                  +
+                   "  </head>\n"                                          +
+                   "  <body>\n"                                           +
+                   "    <p>This is the tutorial.</p>\n"                   +
+                   "  </body>\n"                                          +
                    "</html>";
 
-    var css = "p {\n"                                       +
-              "  color: purple;\n"                          +
+    var css = "p {\n"                                                     +
+              "  color: purple;\n"                                        +
               "}";
 
-    var script = "function add(a, b) {\n"                   +
-                 "  return a|0 + b|0;\n"                    +
+    var script = "function add(a, b) {\n"                                 +
+                 "  return a|0 + b|0;\n"                                  +
                  "}";
 
     function installDefaultFiles(Bramble, callback) {
